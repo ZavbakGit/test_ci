@@ -2,9 +2,9 @@ on:
   push:
     tags:
       - v*
-defaults:
- run:
-  working-directory: ./app_ci_cd
+# defaults:
+#  run:
+#   working-directory: ./app_ci_cd
 name: Continuous Delivery Release apk
 jobs:
   build:
